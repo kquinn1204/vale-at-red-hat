@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Using vale with a continuous integration service :: Vale for Red Hat documentation writers</title>
-    <link rel="canonical" href="https://vale-at-red-hat.github.io/vale-at-red-hat/docs/end-user-guide/using-vale-with-a-continuous-integration-service/">
+    <link rel="canonical" href="https://redhat-documentation.github.io/vale-at-red-hat/docs/end-user-guide/using-vale-with-a-continuous-integration-service/">
     <meta name="keywords" content="vale">
     <meta name="generator" content="Antora 2.3.4">
     <link rel="stylesheet" href="../../../_/css/site.css">
@@ -24,7 +24,7 @@
           <span></span>
         </button>
         <img src="../../../_/img/project-logo.svg" class="navbar-logo" alt="Project logo">
-        <a href="https://vale-at-red-hat.github.io/vale-at-red-hat/index.html">Vale for Red Hat documentation writers</a>
+        <a href="https://redhat-documentation.github.io/vale-at-red-hat/index.html">Vale for Red Hat documentation writers</a>
       </div>
     </div>
     <div id="topbar-nav" class="navbar-menu">
@@ -105,6 +105,81 @@
   </li>
 </ul>
   </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../reference-guide/reference-guide/">Reference guide</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/abbreviations/">Abbreviations</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/casesensitiveterms/">Case sensitive terms</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/configmap/">Config map</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/conjunctions/">Conjunctions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/consciouslanguage/">Conscious language</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/contractions/">Contractions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/definitions/">Definitions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/ellipses/">Ellipses</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/headingpunctuation/">Heading punctuation</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/headings/">Headings</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/oxfordcomma/">OxfordComma</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/passivevoice/">PassiveVoice</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/readabilitygrade/">Readability grade</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/releasenotes/">Release notes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/sentencelength/">Sentence length</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/simplewords/">Simple words</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/slash/">Slash</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/spacing/">Spacing</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/spelling/">Spelling</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termserrors/">Terms errors</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termssuggestions/">Terms suggestions</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/termswarnings/">Terms warnings</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../reference-guide/usage/">Usage</a>
+  </li>
+</ul>
+  </li>
 </ul>
   </nav>
 </div>
@@ -138,7 +213,7 @@
     <li><a href="./">Continuous integration</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/vale-at-red-hat/vale-at-red-hat/edit/main/modules/end-user-guide/pages/using-vale-with-a-continuous-integration-service.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-documentation/vale-at-red-hat/edit/main/modules/end-user-guide/pages/using-vale-with-a-continuous-integration-service.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
@@ -180,7 +255,7 @@
 <div class="title">Procedure</div>
 <ol class="arabic">
 <li>
-<p>Configure your continuous integration service to download the <code>vale</code> CLI, the <em>RedHat</em> style and the Vale configuration file using a <code>download_vale.sh</code> script such as:</p>
+<p>Configure your continuous integration service to download the <code>vale</code> CLI, the <code>RedHat</code> style and the Vale configuration file using a <code>download_vale.sh</code> script such as:</p>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">#!/bin/sh
@@ -200,12 +275,12 @@ tar -xf vale*
 ./vale -v
 
 # Download latest vale configuration from vale-at-red-hat
-curl -Os https://raw.githubusercontent.com/vale-at-red-hat/vale-at-red-hat/master/.vale.ini
+curl -Os https://raw.githubusercontent.com/redhat-documentation/vale-at-red-hat/master/.vale.ini
 
-# Download latest _RedHat_ style
+# Download latest `RedHat` style
 mkdir .vale/styles || true
 cd .vale/styles
-gh release download --repo 'vale-at-red-hat/vale-at-red-hat' --pattern 'RedHat.zip'
+gh release download --repo 'redhat-documentation/vale-at-red-hat' --pattern 'RedHat.zip'
 unzip RedHat.zip</code></pre>
 </div>
 </div>
